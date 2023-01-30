@@ -1,5 +1,4 @@
 import css from './Searchbar.module.css';
-import PropTypes from 'prop-types';
 import React, { memo, useContext, useState } from 'react';
 import { BsSearch } from 'react-icons/bs';
 import { DataImagesContext, QueryContext, PageContext } from 'index';
@@ -45,4 +44,6 @@ export const Searchbar = memo(() => {
     </header>
   );
 });
+
+
 
